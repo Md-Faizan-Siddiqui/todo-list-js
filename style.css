@@ -54,6 +54,7 @@ input:focus{
 }
 .pra{
     color: white;
+    overflow-wrap: break-word;
 }
 button{
     color: white;
