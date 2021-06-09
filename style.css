@@ -9,6 +9,7 @@ header{
 body{
     background: url("https://c8.alamy.com/comp/PT3HE6/workplace-desktop-pastel-background-with-notebook-with-notes-pen-pencils-tablet-eyeglasses-and-a-cup-of-black-coffee-with-copy-space-business-wor-PT3HE6.jpg") no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 .divInput{
     margin-top: 20px;

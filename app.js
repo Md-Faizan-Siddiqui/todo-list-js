@@ -40,8 +40,13 @@ function dlt(i) {
 }
 
 function edit(i) {
-    userArr[i]
     var promt = prompt("hello", userArr[i]);
-    userArr.splice(i, 1, promt);
+
+    if (promt === "" || promt === null) {
+        alert("Please Enter Task")
+    } else {
+        userArr[i]
+        userArr.splice(i, 1, promt);
+    }
     showData()
 }
