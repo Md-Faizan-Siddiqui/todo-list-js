@@ -40,7 +40,7 @@ function dlt(i) {
 }
 
 function edit(i) {
-    var promt = prompt("hello", userArr[i]);
+    var promt = prompt("Enter new task..", userArr[i]);
 
     if (promt === "" || promt === null) {
         alert("Please Enter Task")
