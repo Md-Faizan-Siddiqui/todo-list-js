@@ -30,7 +30,7 @@ function showData() {
         </div>
         `
         document.getElementById('showData').innerHTML += html
-        console.log(value)
+        // console.log(value)
     })
 }
 
